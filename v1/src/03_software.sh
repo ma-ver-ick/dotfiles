@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-xcode-select --install
+set -xe
 
 # Install HomeBrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -40,5 +40,7 @@ ${BREW} cask install pycharm
 ${BREW} cask install datagrip
 ${BREW} cask install appcode
 
+# Tools
+${BREW} cask install istat-menus
 
 ${BREW} cleanup

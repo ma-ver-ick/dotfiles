@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 sudo -v
 
 # Enable FileVault
