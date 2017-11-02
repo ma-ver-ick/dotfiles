@@ -9,4 +9,4 @@ read  -n 1 -p "Press key after xcode finishes"
 
 echo "Cloning repository..."
 
-git clone  "~/Downloads/dotfiles"
+git clone https://github.com/ma-ver-ick/dotfiles.git "~/Downloads/dotfiles"
